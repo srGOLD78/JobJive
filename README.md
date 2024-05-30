@@ -14,12 +14,16 @@
    ```
    python -m venv venv
    venv\Scripts\activate.bat
-   
+
 
 4. Скачайте нужные версии библиотек из файла versions.txt через команду
    ```
        pip install -r versions.txt
-
+5. Сделайте миграции для создания базы данных
+   ```
+   python manage.py makemigrations
+   python manage.py migrate
+   
 5. Запустите проект с помощью команды
    ```
        py manage.py runserver
