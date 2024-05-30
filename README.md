@@ -20,14 +20,18 @@
 
 # Как работает JobJive
 Вход в профиль
-![image](https://github.com/srGOLD78/JobJive/assets/44532302/9bb80840-566b-413e-b280-edfb6a7722f2)
+![image](https://github.com/srGOLD78/JobJive/assets/44532302/9451a27e-93a5-40fe-9381-d586976e21e1)
+
 
 Выбор вакансии
-![image](https://github.com/srGOLD78/JobJive/assets/44532302/e194a0da-88d2-422d-a8c5-e3ed3daab892)
+![image](https://github.com/srGOLD78/JobJive/assets/44532302/53eb0a94-72a3-4f22-9e94-6ed9384cdbc0)
+
 
 После можно откликнуться на вакансию и загрузить свое резюме.
 
 Можно зайти как компания и после подтверждения админом выкладывать свои вакансии просматривать их
-![image](https://github.com/srGOLD78/JobJive/assets/44532302/45c63af8-6528-4a32-8b77-b19155e05d5d)
+![image](https://github.com/srGOLD78/JobJive/assets/44532302/2a2e8c2c-104a-4721-9a0f-36e46782c7a9)
+
 И отвечать на отклики.
-![image](https://github.com/srGOLD78/JobJive/assets/44532302/3bd8b1f9-783d-4158-8b4c-1286145fea68)
+![image](https://github.com/srGOLD78/JobJive/assets/44532302/3e22e6b6-b101-4c05-aba8-b82efce24df4)
+
