@@ -1,5 +1,7 @@
 from django.core.checks import messages
 from django.shortcuts import render, redirect
+from django.views.generic import ListView
+
 from .models import *
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
@@ -361,3 +363,15 @@ def delete_company(request, myid):
     company.delete()
     return redirect("/all_companies")
 
+class Search(ListView):
+    template_name = "all_jobs.html"
+    context_object_name = 'jobs'
+    paginate_by = 5
+
+    def get_queryset(self):
+        return Job.objects.filter(title__icontains = self.request.GET.get('q'))
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super().get_context_data()
+        context['q'] = self.request.GET.get('q')
+        return context

@@ -11,7 +11,7 @@
         <tr>
             <th>Sr.No</th>
             <th>Full Name</th>
-            <th>Email Id</th>
+            <th>Email</th>
             <th>Contact</th>
             <th>Gender</th>
             <th>Image</th>
@@ -23,7 +23,7 @@
         <tr>
             <td>{{forloop.counter}}</td>
             <td>{{applicant.user.get_full_name}}</td>
-            <td>{{applicant.user.email}}</td>
+            <td>{{applicant.user.username}}</td>
             <td>{{applicant.phone}}</td>
             <td>{{applicant.gender}}</td>
             <td><img src="{{applicant.image.url}}" class="rounded-circle" width="90px" height="70px"></td>
